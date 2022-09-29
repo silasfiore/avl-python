@@ -1,0 +1,148 @@
+test case
+#Mach
+0.000000
+#iYsym	iZsym	Zsym
+0 0 0.000000
+#Sref	Cref	Bref
+185.850103 5.567708 33.380000
+#Xref	Yref	Zref
+1.672650 0.000000 1.400000
+#CDp
+0.012360
+#
+!=================================================
+SURFACE
+Horizontal Tail
+#Nchord	Cspace	Nspan	Sspace
+12 1.000000 20 -1.500000
+YDUPLICATE
+0.000000
+#
+TRANSLATE
+15.806000 0.000000 2.666000
+#
+!-------------------------------------------------
+SECTION
+#Xle	Yle	Zle	Chord	Ainc	Nspan	Sspace
+0.003735 0.000000 -0.085557 3.926610 -5.000000
+#
+NACA
+0212
+#
+CONTROL
+#name	gain	Xhinge	XYZhvec	SgnDup
+elevator 1.000000 0.666000 0.000000 1.000000 0.000000 1.000000
+!-------------------------------------------------
+SECTION
+#Xle	Yle	Zle	Chord	Ainc	Nspan	Sspace
+0.630958 6.000000 -0.007612 2.746112 -5.000000
+#
+NACA
+0210
+#
+CONTROL
+#name	gain	Xhinge	XYZhvec	SgnDup
+elevator 1.000000 0.287011 0.000000 1.000000 0.000000 1.000000
+!-------------------------------------------------
+SECTION
+#Xle	Yle	Zle	Chord	Ainc	Nspan	Sspace
+0.692210 6.585937 0.000000 2.630829 -5.000000
+#
+NACA
+0210
+#
+CONTROL
+#name	gain	Xhinge	XYZhvec	SgnDup
+elevator 1.000000 0.250000 0.000000 1.000000 0.000000 1.000000
+!=================================================
+SURFACE
+Vertical Tail
+#Nchord	Cspace	Nspan	Sspace
+12 1.000000 20 -1.500000
+TRANSLATE
+17.214696 0.000000 1.739130
+#
+!-------------------------------------------------
+SECTION
+#Xle	Yle	Zle	Chord	Ainc	Nspan	Sspace
+1.861366 0.000000 4.803408 2.010417 0.000000
+#
+NACA
+0210
+#
+CONTROL
+#name	gain	Xhinge	XYZhvec	SgnDup
+rudder 1.000000 0.500000 0.000000 0.000000 1.000000 1.000000
+!-------------------------------------------------
+SECTION
+#Xle	Yle	Zle	Chord	Ainc	Nspan	Sspace
+0.000000 0.000000 0.000000 4.408637 0.000000
+#
+NACA
+0212
+#
+CONTROL
+#name	gain	Xhinge	XYZhvec	SgnDup
+rudder 1.000000 0.353200 0.000000 0.000000 1.000000 1.000000
+!=================================================
+SURFACE
+Wing
+#Nchord	Cspace	Nspan	Sspace
+18 1.000000 26 -1.500000
+YDUPLICATE
+0.000000
+#
+TRANSLATE
+-0.394000 0.000000 0.000000
+#
+!-------------------------------------------------
+SECTION
+#Xle	Yle	Zle	Chord	Ainc	Nspan	Sspace
+0.001099 0.000000 0.062983 7.218750 2.000000
+#
+NACA
+6410
+!-------------------------------------------------
+SECTION
+#Xle	Yle	Zle	Chord	Ainc	Nspan	Sspace
+0.118008 2.217327 0.346460 6.776271 1.598000
+#
+NACA
+6411
+#
+CONTROL
+#name	gain	Xhinge	XYZhvec	SgnDup
+flaps 1.000000 0.750000 0.000000 1.000000 0.000000 1.000000
+!-------------------------------------------------
+SECTION
+#Xle	Yle	Zle	Chord	Ainc	Nspan	Sspace
+0.582588 11.028719 1.472963 5.017911 0.000500
+#
+NACA
+5413
+#
+CONTROL
+#name	gain	Xhinge	XYZhvec	SgnDup
+flaps 1.000000 0.750000 0.000000 1.000000 0.000000 1.000000
+#
+CONTROL
+#name	gain	Xhinge	XYZhvec	SgnDup
+ailerons 1.000000 0.750000 0.000000 1.000000 0.000000 -1.000000
+!-------------------------------------------------
+SECTION
+#Xle	Yle	Zle	Chord	Ainc	Nspan	Sspace
+0.856101 16.216270 2.136172 3.982708 -0.940000
+#
+NACA
+4415
+#
+CONTROL
+#name	gain	Xhinge	XYZhvec	SgnDup
+ailerons 1.000000 0.750000 0.000000 1.000000 0.000000 -1.000000
+!-------------------------------------------------
+SECTION
+#Xle	Yle	Zle	Chord	Ainc	Nspan	Sspace
+0.873550 16.547215 2.178482 3.916667 -1.000000
+#
+NACA
+4415
